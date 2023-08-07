@@ -12,4 +12,4 @@ _Login Activity_
 
 _Profile Activity_
 
-<img src="https://firebasestorage.googleapis.com/v0/b/fir-8ccdd.appspot.com/o/ReadmeImage%2FScreenshot_2023-08-08-01-37-07-668_com.example.firebase%5B1%5D.png?alt=media&token=51f90344-416e-4422-b6bb-e0fae2d8ffb9" data-canonical-src="https://firebasestorage.googleapis.com/v0/b/fir-8ccdd.appspot.com/o/ReadmeImage%2FScreenshot_2023-08-08-01-37-07-668_com.example.firebase%5B1%5D.png?alt=media&token=51f90344-416e-4422-b6bb-e0fae2d8ffb9" width="310" height="650" />
+![Profile Activity](https://firebasestorage.googleapis.com/v0/b/fir-8ccdd.appspot.com/o/ReadmeImage%2FScreenshot_2023-08-08-01-37-07-668_com.example.firebase%5B1%5D.png?alt=media&token=51f90344-416e-4422-b6bb-e0fae2d8ffb9)
