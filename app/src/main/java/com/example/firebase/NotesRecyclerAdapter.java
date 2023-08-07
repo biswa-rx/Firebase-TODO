@@ -1,5 +1,6 @@
 package com.example.firebase;
 
+import android.graphics.Paint;
 import android.text.format.DateFormat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -29,6 +30,13 @@ public class NotesRecyclerAdapter extends FirestoreRecyclerAdapter<Note, NotesRe
     protected void onBindViewHolder(@NonNull NoteViewHolder holder, int position, @NonNull Note note) {
         holder.noteTextView.setText(note.getText());
         holder.checkBox.setChecked(note.getCompleted());
+        if(note.getCompleted()) {
+            holder.noteTextView.setPaintFlags(holder.noteTextView.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
+        }else{
+            int flags = holder.noteTextView.getPaintFlags();
+            flags &= ~Paint.STRIKE_THRU_TEXT_FLAG; // Clear the strike-through flag
+            holder.noteTextView.setPaintFlags(flags);
+        }
         CharSequence dateCharSeq = DateFormat.format("EEEE, MMM d, yyyy h:mm:ss a", note.getCreated().toDate());
         holder.dateTextView.setText(dateCharSeq);
     }

@@ -16,6 +16,8 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:text="get me milk"
+        android:textSize="22sp"
+        android:textColor="@color/black"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toTopOf="@+id/dateTextView"
         app:layout_constraintEnd_toStartOf="@+id/checkBox"
@@ -33,7 +35,7 @@
         app:layout_constraintStart_toStartOf="@+id/noteTextView"
         app:layout_constraintTop_toBottomOf="@+id/noteTextView"
         android:textStyle="bold"
-        android:textColor="#FFFF00"
+        android:textColor="#8B8B8B"
         />
 
     <CheckBox
@@ -42,6 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
+        app:buttonTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
